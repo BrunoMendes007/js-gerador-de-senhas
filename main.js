@@ -85,10 +85,21 @@ function aumentaTamanho(){
 const campoSenha = document.querySelector('#campo-senha');
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
+const numeros = '01234566789';
+const simbolos = '!@*?';
+
+geraSenha();
 
 function geraSenha(){
+    let alfabeto = '';
+    if(checkbox[0].checked){
+        alfabeto = alfabeto + letrasMinusculas;
+    }
     let senha = '';
     for (let i = 0; i < tamanhoSenha){
+        let senha='';
+        for (let i = 0; i)
 
     }
 }
